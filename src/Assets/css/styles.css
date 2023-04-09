@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@400;600&display=swap');
+
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Glory', sans-serif;
+  color: #393939;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Glory', sans-serif;
+}
+
+p {
+  font-family: 'Glory', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+article h1 {
+  margin: 1rem 0;
+}
